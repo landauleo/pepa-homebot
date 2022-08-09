@@ -1,0 +1,11 @@
+### проверка, что меня ещё не заблочили по айпишнику
+GET https://www.mirkvartir.ru/275771039/
+Accept: */*
+Content-Type: application/json
+Cache-Control: no-cache
+
+### проверка отправки сообщения
+POST http://localhost:8087/free-message-sender
+Accept: */*
+Content-Type: application/json
+Cache-Control: no-cache
